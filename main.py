@@ -196,7 +196,7 @@ while True:
  print(F.BLUE+" - "+F.RED+"CPM "+F.WHITE+"AKKAUNTGA KIRISH"+F.BLUE+" - ")
  email=input(F.GREEN+" - Email: "+F.RED+"")
  password=input(F.GREEN+" - Parol: "+F.RED+"")
- print(G+"\nACCESS GRANTED ⚠️")
+ print(Fore.GREEN+"\nACCESS GRANTED ⚠️")
  token = login(email, password)
  time.sleep(1)
  cs()
